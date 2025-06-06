@@ -18,6 +18,20 @@
       padding: 2rem;
       text-align: center;
     }
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
     header h1 {
       margin: 0;
       font-size: 2.5rem;
@@ -61,8 +75,13 @@
 </head>
 <body>
   <header>
-    <h1>Cameron Rogers</h1>
-    <p>Software Developer | IT Graduate | Full-Stack |</p>
+    <div class="header-content">
+      <img src="https://via.placeholder.com/80" alt="Cameron Rogers" class="profile-pic" />
+      <div>
+        <h1>Cameron Rogers</h1>
+        <p>Software Developer | IT Graduate | Full-Stack |</p>
+      </div>
+    </div>
   </header>
 
   <section>
@@ -106,8 +125,8 @@
   <section>
     <h2>Contact</h2>
     <p>Email: cameronrogers0209@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/cameron-rogers-8463b620a/" target="_blank">linkedin.com/in/cameronrogers</a></p>
-    <p>GitHub: <a href="https://github.com/CR4Sftware" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/cameron-rogers-8463b620a/" target="_blank">Cameron Rogers</a></p>
+    <p>GitHub: <a href="https://github.com/CR4Sftware" target="_blank">CR4Sftware</a></p>
     <p> Phone Number : 478-719-0370 </p>
   </section>
 
