@@ -1,234 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cameron Rogers | Software Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary: #1e293b;
-      --accent: #2563eb;
-      --accent-hover: #1e40af;
-      --bg: #f4f4f4;
-      --text: #333;
-      --white: #fff;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      background-color: var(--primary);
-      color: var(--white);
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    .header-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .profile-pic {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid var(--white);
-      transition: transform 0.3s ease;
-    }
-
-    .profile-pic:hover {
-      transform: scale(1.05);
-    }
-
-    header h1 {
-      font-size: 2.75rem;
-    }
-
-    header p {
-      font-size: 1.25rem;
-      opacity: 0.9;
-    }
-
-    section {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
-
-    h2 {
-      border-bottom: 3px solid var(--primary);
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      font-size: 1.75rem;
-    }
-
-    .project {
-      background: var(--white);
-      border-radius: 0.75rem;
-      padding: 1.25rem;
-      margin-bottom: 1.25rem;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-      transition: transform 0.2s;
-    }
-
-    .project:hover {
-      transform: translateY(-5px);
-    }
-
-    .project h3 {
-      margin-top: 0;
-      font-size: 1.4rem;
-      color: var(--primary);
-    }
-
-    .project a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .project a:hover {
-      text-decoration: underline;
-    }
-
-    .ResumeAttachment a {
-      display: inline-block;
-      background-color: var(--accent);
-      color: var(--white);
-      padding: 0.75rem 1.5rem;
-      border-radius: 0.5rem;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 1rem;
-      transition: background-color 0.3s;
-    }
-
-    .ResumeAttachment a:hover {
-      background-color: var(--accent-hover);
-    }
-
-    ul {
-      padding-left: 1.5rem;
-      margin-top: 0.5rem;
-    }
-
-    ul li {
-      margin-bottom: 0.5rem;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
-    a:hover {
-      color: var(--accent-hover);
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: var(--primary);
-      color: var(--white);
-      font-size: 0.95rem;
-    }
-  </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <img src="cameron.jpg" alt="Cameron Rogers" class="profile-pic" />
-      <div>
-        <h1>Cameron Rogers</h1>
-        <p>Software Developer | IT Graduate | Full-Stack</p>
-      </div>
+    <img class="image-gradient"src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+    
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">MCODE</h1>
+
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">RESOURCES</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a>
+            </nav>
+
+            <button data-aos="fade-down" class="btn-signing">SIGNING</button>
+        </header>
+        <main>
+        <div class="content">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"data-aos-duration= "1500" class="tag-box">
+                <div class="tag">INTRUCING &wedbar; </div>
+            </div>
+            <h1 data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration= "2000" >ENAIL FOR <br>DEVELOPERS</h1>
+
+            <p data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"data-aos-duration= "2500"class="description">
+                the best way to reach unmans instead of spam folders,
+                diever transactional and marketing emails at scale.
+            </p>
+
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="3000" class="buttons">
+                <a href="#" class="btn-get-started">Documentation &gt;</a>
+                <a href="#" class="btn-signing-main">Getstarted &gt;</a>
+            </div>
+        </div>
+        </main>
     </div>
-  </header>
- <section style="padding: 0; margin: 0;">
-    <iframe 
-      src="https://my.spline.design/your-scene-url" 
-      frameborder="0" 
-      width="100%" 
-      height="600px" 
-      style="display: block; border: none; cursor: grab;">
-    </iframe>
-  </section>
-  <!-- 🔼 Spline 3D Section End -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I'm Cameron Rogers, a recent Information Technology graduate from Middle Georgia State University with a passion for building solutions that solve real-world problems. I specialize in full-stack development and enjoy working with both front-end and back-end technologies including Java, Python, JavaScript, and SQL.
-    </p>
-    <p>
-      My experience includes creating responsive websites, collaborating on team-driven projects, and leading development efforts using tools like Git, JIRA, and Lucidchart. I'm continuously learning and seeking opportunities to grow as a developer—especially in areas like software engineering, DevOps, or cloud-based systems.
-    </p>
-    <p>
-      I’m actively looking for internship or entry-level opportunities where I can contribute, learn from experienced professionals, and build scalable applications that make an impact.
-    </p>
-  </section>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.13/build/spline-viewer.js"></script>
+<spline-viewer data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"data-aos-duration= "3000" class="robot-3d" url="https://prod.spline.design/jVrGz1uEFRJ78GL9/scene.splinecode"></spline-viewer>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Senior Capstone</h3>
-      <p>Developed a nutrition website to promote healthy eating in the MGA community</p>
-      <a href="https://camersteph14.wixsite.com/appetiteally">Link Here</a>
-    </div>
-
-    <div class="project">
-      <h3>Portfolio Creation</h3>
-      <p>Used GitHub to create a repository for people and tech recruiters to view my resume and accomplishments</p>
-      <a href="https://cr4software.github.io/portfilo-site/">Link Here</a>
-    </div>
-
-    <div class="project">
-      <h3>Project Management</h3>
-      <p>Led hotel reservation improvement project using Lucidchart, Excel, and Discord</p>
-      <a href="https://docs.google.com/presentation/d/1QbQjkDFcFkkGQwtDmBb4IKl8pwT2RMoviyQZgTsFUj4/edit?usp=sharing">Link Here</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>Resume</h2>
-    <div class="ResumeAttachment">
-      <a href="Cameron Rogers Resume 25-26 please use this (2).pdf" target="_blank" rel="noopener noreferrer">
-        View My Resume (PDF)
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Languages: Python, Java, JavaScript, SQL, HTML/CSS</li>
-      <li>Tools: Git, CommandBox, JIRA, and VS Code</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: cameronrogers0209@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/cameron-rogers-8463b620a/" target="_blank">Cameron Rogers</a></p>
-    <p>GitHub: <a href="https://github.com/CR4Software" target="_blank">CR4Software</a></p>
-    <p>Phone Number: 478-719-0370</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Cameron Rogers</p>
-  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
