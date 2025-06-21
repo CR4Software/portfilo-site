@@ -195,15 +195,15 @@ main{
 }
 
 .btn-signing-main{
-    text-decoration: none;
-    background-color: lightgray;
-    color: black;
-    padding: 0.6rem 2.5rem;
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
     border-radius: 50px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
+    background: linear-gradient(to right, #656565, #7f42a7, #6600c5,
+    #5300a0, #757575, #656565);
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .btn-signing-main:hover{
