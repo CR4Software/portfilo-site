@@ -321,41 +321,6 @@ main{
 }
 
 
-.btn-signing {
-  background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);
-  background-size: 200%;
-  animation: animationGradient 2.5s linear infinite;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 0.8rem 2rem;
-  border-radius: 50px;
-  border: none;
-  font-size: 1rem;
-  font-weight: 500;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  cursor: pointer;
-  z-index: 999;
-  display: inline-block;
-  text-decoration: none; /* Ensure it's styled like a button */
-  text-align: center;
-}
-
-/* Hover effect */
-.btn-signing:hover {
-  transform: scale(1.05);
-}
-
-/* Active (click) effect */
-.btn-signing:active {
-  transform: scale(0.97);
-}
-
-/* Gradient animation keyframes */
-@keyframes animationGradient {
-  0% { background-position: 0% center; }
-  100% { background-position: -200% center; }
-}
-
 /* About Us Section css*/
 
 
