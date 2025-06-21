@@ -77,8 +77,12 @@ nav a:hover{
 }
 
 .btn-signing{
-    background-color: #a7a7a7;
-    color: black;
+    background: linear-gradient(to right, #656565, #7f42a7, #6600c5,
+    #5300a0, #757575, #656565);
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    color: white;
     padding: 0.8rem 2rem;
     border-radius: 50px;
     border: none;
